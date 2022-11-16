@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 int no1 = Integer.parseInt(num1.getText().toString());
                 int no2 = Integer.parseInt(num2.getText().toString());
                 int sum = no1+no2;
-             //   Toast.makeText(getApplicationContext(),sum,Toast.LENGTH_LONG).show();
+                //   Toast.makeText(getApplicationContext(),sum,Toast.LENGTH_LONG).show();
                 res.setText("The result is " + String.valueOf(sum));
             }
 
